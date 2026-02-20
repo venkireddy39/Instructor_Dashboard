@@ -355,7 +355,7 @@ const TeacherDashboard = () => {
 
                         <div className="card">
                             <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', marginBottom: '2.5rem', alignItems: 'center' }}>
-                                <div className="search-container" style={{ maxWidth: '400px' }}>
+                                <div className="search-container" style={{ maxWidth: '600px' }}>
                                     <Search size={20} className="search-icon" />
                                     <input
                                         type="text"
@@ -646,7 +646,7 @@ const TeacherDashboard = () => {
                                             alt="Profile"
                                             style={{ width: '120px', height: '120px', borderRadius: '30px', objectFit: 'cover', border: '4px solid var(--border-light)' }}
                                         />
-                                        <button style={{ position: 'absolute', bottom: '-10px', right: '-10px', width: '36px', height: '36px', borderRadius: '12px', background: 'var(--primary)', color: 'white', border: 'none', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyCenter: 'center', display: 'flex', justifyContent: 'center' }}>
+                                        <button style={{ position: 'absolute', bottom: '-10px', right: '-10px', width: '36px', height: '36px', borderRadius: '12px', background: 'var(--primary)', color: 'white', border: 'none', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                                             <Edit3 size={16} />
                                         </button>
                                     </div>
